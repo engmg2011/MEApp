@@ -137,7 +137,7 @@ function getFeeds(feeds_url_id  ){
 	$('#megamenu>.header').css('background','#eee url("images/'+feeds_url_id+'.jpg") 0px no-repeat');  
 	$('#one>.ui-header').css('background','#fff url("images/'+feeds_url_id+'.jpg") 0px no-repeat'); 
 	$('#one>.ui-header').css('background-size','100%'); 
-	$('#one>.ui-content').css('padding-top','115px'); 
+	$('#one>.ui-content').css('padding-top','88px');
 	if(feeds_url_id == "") $('#one>.ui-header').css('background','#fff url("images/image.jpg") 0px no-repeat'); 
 	if(feeds_url_id == "") $('#megamenu>.header').css('background','#eee url("images/image.jpg") 0px no-repeat');; 
 	printData(feeds_url_id);  
@@ -149,7 +149,7 @@ function getIssues(){
 	$('#megamenu>.header').css('background','#eee url("images/pdf.jpg") 0px no-repeat');  
 	$('#one>.ui-header').css('background','#fff url("images/pdf.jpg") 0px no-repeat'); 
 	$('#one>.ui-header').css('background-size','100%'); 
-	$('#one>.ui-content').css('padding-top','115px'); 
+	$('#one>.ui-content').css('padding-top','88px');
 	printIssues();  
 	megaMenuAction() 
 }
