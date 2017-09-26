@@ -437,3 +437,53 @@ li.mail{
 #popup .menu{
 	padding-top:10px;
 }
+@media(min-width:660px){
+	#My_data .content_item{
+		width:49.5%; 
+		display:inline-block; 
+		margin:15px 0 -10px;
+		vertical-align:top;
+	}
+
+	#My_data .content_item .img{
+		height:220px;
+		overflow:hidden;
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  border:#fff 5px solid !important;
+	}
+	#My_data .content_item .img img{
+		width:100%;
+	}
+	#My_data .content_item .title{
+		height:34px;
+	}
+	#two .image{
+		float:left;
+		margin:30px;
+	}
+	#two .ui-content{
+		padding-top:100px;
+	}
+	#two .ui-content  .title{
+		font-size:32px ;
+		line-height:50px ;
+	}
+	#two .ui-content  .text{
+		font-size:25px ;
+		line-height:40px ;
+	}
+	.zoom i{
+		font-size:30px;
+	}
+	#megamenu .header{
+		background:url(../images/image.jpg) 0px center repeat  rgb(238, 238, 238) !important;
+	}
+}
+@media(min-width:1200px){
+	#My_data .content_item{
+		width:33%;  
+	}
+ 
+}
